@@ -1,0 +1,38 @@
+/* Universal Selector */
+* {
+    margin:0%;
+    padding:0%;
+    background-color: aqua;
+}
+h1{
+    color: darkgreen;
+    background-color: azure;
+}
+
+h2 {
+color: brown;
+background-color:black ;
+}
+h1.pro{
+    color: yellowgreen;
+    background-color: whitesmoke;
+}
+#car{
+    color: darkblue;
+    background-color: antiquewhite;
+}
+div>span>p{
+    color:brown ;
+    background-color: cadetblue;
+}
+div b{
+    color: purple;
+  
+}
+h3+p{
+    color: chartreuse;
+    background-color: aliceblue;
+}
+#no~h5{
+    background-color: yellow;
+}
