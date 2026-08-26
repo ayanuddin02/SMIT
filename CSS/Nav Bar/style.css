@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+:root {
+  --body-color: #1f242d;
+  --bg-color: #66f55c;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+a {
+  color: var(--text-color);
+  font-size: 22px;
+  padding: 10px;
+}
+
