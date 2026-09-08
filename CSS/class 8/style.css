@@ -1,0 +1,20 @@
+/* Universal selector */
+*{
+
+    background-color: white;
+}
+/* type selector */
+h1{
+    color:skyblue;
+}
+p{
+    color: maroon;
+}
+/* ID selector */
+#div{
+    color: darkgreen;
+}
+/* class selector */
+.class2{
+    
+}
