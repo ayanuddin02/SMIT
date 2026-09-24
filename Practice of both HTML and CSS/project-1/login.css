@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+}
+
+#left-box {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: #dfe2e5 solid;
+}
+
+#left-box>div {
+    width: 50%;
+}
+
+#right-box {
+    width: 50%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+#fb-logo {
+    height: 60px;
+    position: absolute;
+    left: 45px;
+    margin-top: 3px;
+    top: 42px;
+
+}
+
+#left-box>div>h1>span {
+    color: #1877f2;
+}
+
+#left-box>div>h1 {
+    /* font-size: 55px; */
+    margin-left: 40px;
+    margin-top: 260px;
+    font-family: Google Sans Flex, sans-serif;
+    font-size: 55px;
+    
+    font-weight: 600;
+
+}
+
+#main-img {
+    height: 500px;
+    object-fit: contain;
+    padding-top: 40px;
+    position: absolute;
+    left: -179px;
+}
+
+#left-box>div {
+    display: flex;
+}
+
+#image-box {
+    position: relative;
+}
+
+#right-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#right-box>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form>h3{
+    text-align: left;
+    width: 100%;
+}
+#inp-1 {
+    width: 500px;
+    height: 55px;
+    border-radius: 14px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    font-size: medium;
+}
+#inp-1::placeholder{
+    font-weight: 550;
+}
+
+#inp-2 {
+    width: 500px;
+    height: 55px;
+    border-radius: 14px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    font-size: medium;
+}
+#inp-2::placeholder{
+    font-weight: 550;
+}
+
+/* #right-box>form>div>h3 {
+
+    position: absolute;
+    left: -270px;
+    top: -135px;
+    
+
+} */
+
+/* #right-box>form{
+    position: relative;
+
+} */
+#button-1{
+    width: 525px;
+    height: 43px;
+    border: 1px solid grey;
+    border-radius: 150px;
+    background-color: #1877f2;
+    color: white;
+    font-size: medium;
+}
+/* #two{
+    position: relative;
+
+} */
+form> p{
+    font-weight: bolder;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+button{
+    width: 525px;
+    border: 1px solid #1877f2;
+    border-radius: 150px;
+    height: 43px;
+    background-color: white;
+    color: #1877f2;
+    font-size: medium;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+/* #three{
+    position: relative;
+}
+#four{
+    position: relative;
+} */
+form> img {
+    width: 80px;
+}
