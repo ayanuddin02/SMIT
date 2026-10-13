@@ -42,7 +42,7 @@ h3{
 #inp-1{
      margin-left: 365px;
     margin-top: 15px;
-    height: 60px;
+    height: 50px;
     width: 240px;
     border: 1px solid grey;
     border-radius: 15px;
@@ -50,7 +50,7 @@ h3{
     font-size: 17px
 }
 #inp-2{
-    height: 60px;
+    height: 50px;
     width: 240px;
     border: 1px solid grey;
     border-radius: 15px;
@@ -58,15 +58,62 @@ h3{
     font-size: 17px
 
 }
-#sel-1{
+#sel-1 , #sel-2 , #sel-3 , #sel-4{
     margin-left: 365px;
     margin-top: 20px;
     width: 170px;
-    height: 60px;
+    height: 50px;
     border-radius: 15px;
     padding-left: 15px;
     border: 1px solid grey;
     font-size: 17px;
     color: grey;
     
+}
+#sel-2{
+    margin-left: 20px;
+    height: 50px;
+}
+#sel-3{
+    margin-left: 20px;
+    height: 50px;
+}
+h3 > i{
+    /* margin-left: 10px; */
+    font-size: 15px;
+}
+#sel-4{
+    width: 560px;
+    height: 50px;
+}
+p > span{
+    color: blue;
+}
+p{
+    margin-left: 365px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+a > button{
+    margin-left: 365px;
+    margin-top: 20px;
+    width: 560px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #2D8CFF;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+#a-1 > button{
+    margin-left: 365px;
+    margin-top: 20px;
+    width: 560px;
+    height: 50px;
+    background-color: #f3f4f5;
+    color: black;
+}
+#div-1{
+    height: 100vh;
 }
